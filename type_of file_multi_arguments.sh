@@ -1,6 +1,5 @@
 #!/bin/bash
-# Run script as bash script
-# Then call function and specify filename
+# This function provides information about a file/directory specified as argument
 # Example usage:
 # source ~/type_of_file_multi_arguments.sh
 # filetype filename.txt ~/Documents/sciprts image.jpg du.bat
@@ -20,13 +19,13 @@ else
 	echo "${FILE} Not a regular file either a directory" # If file is neither then echo it
 fi
 
-ls -l $FILE
+ls -l $FILE | wc -l
 
-done
-}
 if [ "$?" -eq "0" ]
 	then
 	echo "command executed "
 else
 	echo "Not executed "
 fi
+done
+}
