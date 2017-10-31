@@ -2,7 +2,7 @@
 # Run script as bash script
 # Then call function and specify filename
 # Example usage:
-# bash ~/type_of_file_multi_arguments.sh
+# source ~/type_of_file_multi_arguments.sh
 # filetype filename.txt ~/Documents/sciprts image.jpg du.bat
 
 function filetype() { # Call filetype and specify a filename
