@@ -1,5 +1,5 @@
 #!/bin/bash
-# This function provides information about a file/directory specified as argument
+# This function proves information about a file/directory specified as argument
 # Example usage:
 # source ~/type_of_file_multi_arguments.sh
 # filetype filename.txt ~/Documents/sciprts image.jpg du.bat
