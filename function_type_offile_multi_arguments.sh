@@ -1,7 +1,7 @@
 #!/bin/bash
 # This function proves information about a file/directory specified as argument
 # Example usage:
-# source ~/type_of_file_multi_arguments.sh
+# source ~/function_type_offile_multi_arguments.sh
 # filetype filename.txt ~/Documents/sciprts image.jpg du.bat
 
 function filetype() { # Call filetype and specify a filename
